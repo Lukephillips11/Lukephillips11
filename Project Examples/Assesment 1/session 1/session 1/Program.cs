@@ -17,6 +17,7 @@ namespace session_1
             Console.WriteLine("Nice to meet you " + givenName);
             Console.WriteLine("I hope you are well");
             Console.WriteLine("Press any key to quit");
+            Console.ReadKey();
         }
     }
 }
