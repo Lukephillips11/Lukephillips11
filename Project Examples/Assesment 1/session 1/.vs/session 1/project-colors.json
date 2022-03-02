@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ae0c0abd-c856-49d2-a657-1d0c0adaa8d2": {
+      "ProjectGuid": "ae0c0abd-c856-49d2-a657-1d0c0adaa8d2",
+      "DisplayName": "session 1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

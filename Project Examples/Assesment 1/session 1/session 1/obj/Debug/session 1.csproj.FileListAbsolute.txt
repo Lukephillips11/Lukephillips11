@@ -6,3 +6,11 @@ C:\Users\s215214\Desktop\Lukephillips11\Project Examples\Assesment 1\session 1\s
 C:\Users\s215214\Desktop\Lukephillips11\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.csproj.CoreCompileInputs.cache
 C:\Users\s215214\Desktop\Lukephillips11\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.exe
 C:\Users\s215214\Desktop\Lukephillips11\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.pdb
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\bin\Debug\session 1.exe.config
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\bin\Debug\session 1.exe
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\bin\Debug\session 1.pdb
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.csproj.AssemblyReference.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.csproj.CoreCompileInputs.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.exe
+C:\Users\s215214\Documents\GitHub\Project Examples\Assesment 1\session 1\session 1\obj\Debug\session 1.pdb
