@@ -1,0 +1,8 @@
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\bin\Debug\usingOperators.exe.config
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\bin\Debug\usingOperators.exe
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\bin\Debug\usingOperators.pdb
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\obj\Debug\usingOperators.csproj.AssemblyReference.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\obj\Debug\usingOperators.csproj.SuggestedBindingRedirects.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\obj\Debug\usingOperators.csproj.CoreCompileInputs.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\obj\Debug\usingOperators.exe
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\usingOperators\obj\Debug\usingOperators.pdb
