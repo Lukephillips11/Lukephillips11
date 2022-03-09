@@ -16,7 +16,7 @@ namespace usingOperators
               health +=
                   health + healthBonus;
               Console.WriteLine("You have " + health + " health");
-              Console.ReadKey(); */
+              Console.ReadKey(); 
             int score = 0;
             int pointValue = 5;
             int combo = 5;
@@ -28,7 +28,16 @@ namespace usingOperators
             combo++;
             score += pointValue * combo;   
             Console.WriteLine("You scored! new score is: " + score + " points");
+            Console.ReadKey(); */
+
+            float myVariable = 3;
+            Console.WriteLine("Value of variable before: " + myVariable);
+
+            myVariable = myVariable % 2;
+            Console.WriteLine("Value of variable after: " + myVariable);
             Console.ReadKey();
+
+
         }
     }
 }
