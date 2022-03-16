@@ -1,0 +1,8 @@
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\bin\Debug\if statments.exe.config
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\bin\Debug\if statments.exe
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\bin\Debug\if statments.pdb
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\obj\Debug\if statments.csproj.AssemblyReference.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\obj\Debug\if statments.csproj.SuggestedBindingRedirects.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\obj\Debug\if statments.csproj.CoreCompileInputs.cache
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\obj\Debug\if statments.exe
+C:\Users\s215214\Documents\GitHub\Project Examples\usingOperators\if statments\if statments\obj\Debug\if statments.pdb
