@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("session 1")]
+[assembly: AssemblyTitle("ICTPRG302 Intro to Programming")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("The Academy of Interactive Entertainment Ltd")]
-[assembly: AssemblyProduct("session 1")]
-[assembly: AssemblyCopyright("Copyright © The Academy of Interactive Entertainment Ltd 2022")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ICTPRG302 Intro to Programming")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ae0c0abd-c856-49d2-a657-1d0c0adaa8d2")]
+[assembly: Guid("97776bb5-4f3b-4e60-b863-77d11f152b36")]
 
 // Version information for an assembly consists of the following four values:
 //

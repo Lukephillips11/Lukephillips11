@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE0C0ABD-C856-49D2-A657-1D0C0ADAA8D2}</ProjectGuid>
+    <ProjectGuid>{97776BB5-4F3B-4E60-B863-77D11F152B36}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>session_1</RootNamespace>
-    <AssemblyName>session 1</AssemblyName>
+    <RootNamespace>ICTPRG302_Intro_to_Programming</RootNamespace>
+    <AssemblyName>ICTPRG302 Intro to Programming</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gamertags.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
