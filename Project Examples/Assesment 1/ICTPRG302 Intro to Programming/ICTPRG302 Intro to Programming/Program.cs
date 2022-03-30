@@ -17,7 +17,11 @@ namespace ICTPRG302_Intro_to_Programming
 			Gamertags gamertags = new Gamertags();
 
 			gamertags.LoadGamertags();
-			gamertags.Printallgamertags();
+			gamertags.PrintAllGamertags();
+			gamertags.PrintGamerTagsEndingWithNumber();
+			gamertags.PrintGamerTagsNotStartingWithANumberOrLetter();
+			gamertags.AddName();
+
 		}
 	}
 }
