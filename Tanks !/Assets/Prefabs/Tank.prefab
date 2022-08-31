@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &452972056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452972057}
+  m_Layer: 0
+  m_Name: FirePoint\
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452972057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452972056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.684, z: 1.883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1285217234061845775}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1285217234061424929
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,6 +158,7 @@ GameObject:
   - component: {fileID: 1285217234440955360}
   - component: {fileID: 1285217234440955363}
   - component: {fileID: 1285217234440955361}
+  - component: {fileID: 139799548}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -193,6 +224,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Speed: 12
   m_TurnSpeed: 180
+--- !u!114 &139799548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285217234061424933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f1cff496ffa534f86d7dca4aa09c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Shell: {fileID: 1498821971635246871, guid: 341d777342ad2e3409c34795dff7027a, type: 3}
+  m_FireTransform: {fileID: 452972057}
+  m_LaunchForce: 30
 --- !u!1 &1285217234061424935
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +433,8 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.01, y: 1.0796412, z: -0.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 452972057}
   m_Father: {fileID: 1285217234061845761}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
