@@ -44,16 +44,6 @@ public class EnemyTankMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        m_Follow = true;
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        m_Follow = false;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
         if (other.tag == "Player")
         {
             m_Follow=true;
@@ -65,7 +55,7 @@ public class EnemyTankMovement : MonoBehaviour
     {
          if (other.tag == "player")
         {
-
+            m_Follow = false;
 
         }
         
@@ -74,8 +64,33 @@ public class EnemyTankMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (m_Follow == false)
+            return;
 
-    } 
-}
+        // get distance from player to enemy tank 
+        float distance = (m_Player.transform.position - transform.position).magnitude;
+        // if distance is less than stop distance, then stop moving 
+        if (distance > m_CloseDistance)
+        {
+            m_NavAgent.SetDestination(m_Player.transform.position);
+            m_NavAgent.isStopped = false;
+        }
+        else
+        {
+            m_NavAgent.isStopped = true;
+        }
+
+        if (m_Turret != null)
+        {
+            m_Turret.LookAt(m_Player.transform);
+        }
+    }
+
+
+
+
+
+} 
+
 
 
