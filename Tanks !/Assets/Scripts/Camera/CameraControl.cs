@@ -10,6 +10,7 @@ public class CameraControl : MonoBehaviour
 
     private Vector3 m_MoveVelocity;
     private Vector3 m_DesiredPosition;
+    private object lookAngle;
 
     private void Awake()
     {
@@ -27,5 +28,9 @@ public class CameraControl : MonoBehaviour
         transform.position = Vector3.SmoothDamp(transform.position,
        m_DesiredPosition, ref m_MoveVelocity, m_DampTime);
     }
+
+    
+
+
 
 }

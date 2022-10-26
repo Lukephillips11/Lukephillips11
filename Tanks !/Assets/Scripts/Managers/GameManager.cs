@@ -9,9 +9,11 @@ public class GameManager : MonoBehaviour
 
     private float m_gameTime = 0;
     public float GameTime { get { return m_gameTime; } }
+    public HighScores m_HighScores;
 
     public Text m_MessageText;
     public Text m_TimerText;
+    public Text highscore;
 
     public enum GameState
     {
@@ -32,11 +34,14 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < m_Tanks.Length; i++)
         {
-            m_TimerText.gameObject.SetActive(false);
-            m_MessageText.text = "Get Ready";
+            m_Tanks[i].SetActive(false);
         }
 
-
+        m_TimerText.gameObject.SetActive(false);
+        m_MessageText.text = "Get Ready";
+        int seconds = Mathf.RoundToInt(m_HighScores.scores[0]);
+        highscore.text = string.Format("{0:D2}:{1:D2}",
+                     (seconds / 60), (seconds % 60));
     }
 
     void Update()
@@ -85,6 +90,14 @@ public class GameManager : MonoBehaviour
                     else
                     {
                         m_MessageText.text = "WINNER!";
+
+                        m_HighScores.AddScore(Mathf.RoundToInt(m_gameTime));
+                        m_HighScores.SaveScoresToFile();
+
+                        seconds = Mathf.RoundToInt(m_HighScores.scores[0]);
+                        highscore.text = string.Format("{0:D2}:{1:D2}",
+                                     (seconds / 60), (seconds % 60));
+
                     }
 
                 }
